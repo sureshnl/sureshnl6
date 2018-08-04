@@ -1,0 +1,106 @@
+header{
+  text-align: center;
+  color: #fdc;
+  background: #B90FD8;
+  padding:1%;
+  margin: 0%;
+  width: 100%;
+}
+.btn1{
+  font-weight: 550;
+  display: block;
+  background:#4754DE;
+  color: #fff;
+  padding: 1%;
+  margin-top:2%;
+  margin-left: auto;
+  border: 1px solid #4754DE;
+border-radius: 5px;
+}
+.parent{
+
+  background: #fff;
+  margin: 1% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+width: 800px;
+}
+.parent>div{
+  width: 31.3%;
+  text-align: center;
+  padding: 1%;
+box-shadow: 3px 3px 3px #ddd;
+}
+img{
+  width: 200px;
+}
+.btn2{
+  font-weight: 550;
+  width: 60%;
+  display: block;
+  background:#4754DE;
+  color: #fff;
+  padding: 2%;
+  margin-top:2%;
+margin: auto;
+border: 1px solid #4754DE;
+border-radius: 5px;
+}
+.pin2{
+  width: 100px;
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+  .parent{
+
+    background: #fff;
+    margin: 1% auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  width:100%;
+  }
+  .parent>div{
+    width: 98%;
+    text-align: center;
+    padding: 1%;
+  box-shadow: 3px 3px 3px #ddd;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+  .parent{
+
+    background: #fff;
+    margin: 1% auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+  width:100%;
+  }
+  .parent>div{
+    width: 98%;
+    text-align: center;
+    padding: 1%;
+  box-shadow: 3px 3px 3px #ddd;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1595px){
+  .parent{
+
+    background: #fff;
+    margin: 1% auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+  width:100%;
+  }
+  .parent>div{
+    width: 48%;
+    text-align: center;
+    padding: 1%;
+  box-shadow: 3px 3px 3px #ddd;
+  }
+
+}
